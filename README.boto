@@ -1,0 +1,5 @@
+
+AWS_PROFILE=dev-mohan ansible-playbook vpc_create.yml -e "env=dev"
+AWS_PROFILE=dev-mohan ansible-playbook  myplaybook.yml
+AWS_PROFILE=dev-mohan ansible-playbook -i ec2.py myplaybook.yml
+http://docs.ansible.com/ansible/intro_dynamic_inventory.html
